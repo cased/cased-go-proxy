@@ -6,7 +6,7 @@
   "keywords": ["go", "proxy", "cased"],
   "env": {
     "CASED_PUBLISH_KEY": {
-      "description": "Your Cased audit trail publish key"
+      "description": "Your Cased audit trail publish key (starts with publish_)"
     }
   }
 }
