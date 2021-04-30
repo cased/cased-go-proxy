@@ -26,6 +26,6 @@ func main() {
 		panic(`Please provide a Cased publish key that starts with "publish_" and start the proxy again: https://github.com/cased/cased-go#configuration`)
 	}
 
-	http.HandleFunc("/publish", handlers.AuditEvents)
+	http.HandleFunc("/", handlers.AuditEvents)
 	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%s", port), nil))
 }
