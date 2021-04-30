@@ -1,0 +1,12 @@
+{
+  "name": "Cased Go Proxy",
+  "description": "cased-go-proxy is a service you can deploy as a proxy to publish your Cased audit events when you are unable to distribute the publish key associated with your account.",
+  "repository": "https://github.com/cased/cased-go-proxy",
+  "logo": "https://raw.githubusercontent.com/cased/cased-go-proxy/main/assets/logo.png",
+  "keywords": ["go", "proxy", "cased"],
+  "env": {
+    "CASED_PUBLISH_KEY": {
+      "description": "Your Cased audit trail publish key"
+    }
+  }
+}

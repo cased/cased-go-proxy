@@ -1,0 +1,7 @@
+# github.com/cased/cased-go v0.0.0-20210109000108-2e876cf7758d
+## explicit
+github.com/cased/cased-go
+# github.com/dewski/jsonpath v0.0.0-20210103075638-af6da8f1a897
+github.com/dewski/jsonpath
+# github.com/kelseyhightower/envconfig v1.4.0
+github.com/kelseyhightower/envconfig
