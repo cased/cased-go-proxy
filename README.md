@@ -6,7 +6,23 @@ cased-go-proxy is a service you can deploy as a proxy to publish your Cased
 audit events when you are unable to distribute the publish key associated
 with your account.
 
+## Configuration
+
+Either if you're running the standalone server or adding the Cased Proxy to your
+existing application, you must provide a Cased publish key.
+
+You can use the `CASED_PUBLISH_KEY` environment variable to configure your
+publish key:
+
+```
+CASED_PUBLISH_KEY=publish_live_1rsQB0uyz8Psip37IOi98pY8YYt go run main.go
+```
+
 ## Standalone server
+
+To run the Cased Proxy as a standalone service you can either deploy this
+project on its own, or use Heroku. A Heroku template has been provided to get
+you running:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cased/cased-go-proxy)
 
